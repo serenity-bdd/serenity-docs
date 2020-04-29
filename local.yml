@@ -3,6 +3,7 @@ site:
 content:
   sources:
    - url: ../the-serenity-book
+     branches: HEAD
 output:
   dir: ./build/site-local
 

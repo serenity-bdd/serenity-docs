@@ -2,13 +2,13 @@ site:
   title: The Serenity BDD Book
 content:
   sources:
-  - url: https://github.com/serenity-bdd/the-serenity-book.git
-    branches: master
+   - url: ../the-serenity-book
+     branches: HEAD
+output:
+  dir: ./build/site-local
+
 ui:
   bundle:
     # url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     url: themes/serenity-antora-theme.zip
     snapshot: true
-
-runtime:
-  pull: true
